@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 3vh;
+    padding: 0%;
+    color: white;
+    background-color: #C55394;
+    position: relative;
+}
+header div{
+    float: left;
+    margin: 0;
+    font-family: Courgette;
+    font-size: larger;
+}
+header > div a{
+    color: white;
+    text-decoration: none;
+}
+header nav{
+    width: 35%;
+    float: right;
+    color: #fff;
+    margin:0;
+}
+header nav ul{
+    margin:0;
+    padding: 0;
+}
+header ul > li{
+    color: white;
+    padding: 0.2rem;
+    display: inline-block;
+}
+header ul> li>a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin:10px;
+}
+header ul > li a:hover{
+    background-color: #EB43A3;
+}
+.container{
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -5%;
+    padding: 5%;
+    background-color: #fff;
+    box-shadow: 0 0 2rem #333;
+    border-radius: 1rem;
+}
+section{
+    background-image: url(../background.png);
+    padding: 1%;
+    margin: 1%;
+    height: 100%;
+}
+h2{
+    margin: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 50%;                                                                     
+    color: #EB43A3;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.title{
+    margin-left:30% ;
+    margin-right: 30%;
+    margin-top: -1%;
+    margin-bottom: -200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:600px;
+    height:275px;
+    background-image: url(../rainbow.png);
+
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin:0;
+}
+/*clearfix( clear floats)*/
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+figure{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+figure img{
+    width: 100%;
+}
+
+figure figcaption{
+    background-color: rgba(0,0,0, 0.5);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 2.5rem;
+    display: block;
+    padding: 10px;
+}
+div h3{
+    color: #EB43A3;
+}
+h3{
+    color: #EB43A3;
+}
+#map{
+    float:left;
+    width:55%;
+    padding: 0;
+    margin:0;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+#location{
+    width: 45%;
+    float:left;
+    padding: 10px;
+}
+h4{
+    color: #C55394;
+}
+.partie3{
+    display: inline;
+}
+#button{
+    background-color: #C55394;
+}
+
+
+
+footer{
+    background-color: #C55394;
+}
+
+footer p{
+    text-align: right;
+    color: #fff;
+    padding: 1.5rem;
+}
